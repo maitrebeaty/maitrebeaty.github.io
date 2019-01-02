@@ -165,7 +165,18 @@ header nav li:last-child {
 }
 
 @media(max-width:800px) {
-
+  #header_text {
+	  visibility: hidden;
+  }
+	
+  #header_text:after {
+	  visibility: visible;
+	  display: block;
+	  content: "Upper Cumberland MMA";
+	  padding-right: 20px;
+	  top:0;
+	  left: 0;
+  }
 
   header {
     display:inline-block;
@@ -343,6 +354,10 @@ ABOUT
     margin-top: 20px;
     line-height: 1.5;
     text-align: left;
+  }
+  #about_text {
+	  display: block;
+	  margin-top: 40px;
   }
 }
 
