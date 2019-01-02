@@ -213,7 +213,8 @@ header nav li:last-child {
 
   /* Show the dropdown menu on hover */
 .dropdown:active .dropdown-content {display: block;}
-  
+.dropdown:touch-action .dropdown-content {display: block;}
+.dropdown:on-click .dropdown-content {display: block;}
 }
 
 /* --------------
@@ -268,9 +269,8 @@ HERO
   #hero {
    
     background-image: url('img/logo3.5_mobile.jpg');
-    min-height: 600px;
-    background-position: center;
-    background-size: auto;
+    /*background-position: center; */
+    /*background-size: auto; */
     background-color: black;
   }
   #hero h1 {
@@ -286,12 +286,17 @@ HERO
 
 @media(max-width:800px) {
   #hero {
-    display: block;
+    display: inline-block;
+	min-height: 315px;
+	max-height: 600px;
+	background-size: length;
+	background-origin: border-box;
     background-image: url('img/logo3.5_mobile.jpg');
     /*min-height: 900px; */
-    background-position: center;
+    background-position: bottom-center;
     /*background-size: auto; */
     background-color: black;
+	z-index: 5;
   }
 
   #hero a.btn {
