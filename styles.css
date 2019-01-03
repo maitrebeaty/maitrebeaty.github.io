@@ -224,13 +224,13 @@ header nav li:last-child {
 
   /* Show the dropdown menu on hover */
 .dropdown:active .dropdown-content {display: block;}
-.dropdown:selection .dropdown-content {display: block;}
+/*.dropdown:selection .dropdown-content {display: block;}
 .dropdown:focus .dropdown-content {display: block;}
 .dropdown.active .dropdown-conetent {display: block;}
 .dropdown:touch-action .dropdown-content {display: block;}
 .dropdown:touch-action .dropdown-content {display: block;}
 .dropdown:on-click .dropdown-content {display: block;}
-.dropdown.on-click .dropdown-content {display: block;}
+.dropdown.on-click .dropdown-content {display: block;} */
 }
 
 /* --------------
