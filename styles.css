@@ -224,6 +224,18 @@ header nav li:last-child {
 
   /* Show the dropdown menu on hover */
 .dropdown:active .dropdown-content {display: block;}
+
+.dropbtn {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.dropdown-content {
+	margin-top: 17px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
 /*.dropdown:selection .dropdown-content {display: block;}
 .dropdown:focus .dropdown-content {display: block;}
 .dropdown.active .dropdown-conetent {display: block;}
